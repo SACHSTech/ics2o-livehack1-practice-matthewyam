@@ -1,1 +1,7 @@
-
+print("Hours to Days Converter ")
+print(" ")
+hours = int(input("Insert the number of hours here: "))
+d_to_h = (hours/24)
+remainder = (hours % 24)
+print (d_to_h)
+print (remainder)

@@ -7,8 +7,8 @@ print(" ")
 minutes = int(input("Insert the number of minutes here: "))
 
 #This is where the code does the math and convers the minutes
-m_to_d = (minutes//1440)
-remainder_m = (minutes % 1440)
+m_to_d = (minutes//60//24)
+remainder_m = (minutes % 60 % 24)
 
 print (" ")
 

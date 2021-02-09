@@ -1,2 +1,2 @@
 language = "python3"
-run = "python3 days_hours.py"
+run = "days_hours.py"
